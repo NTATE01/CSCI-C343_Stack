@@ -123,7 +123,7 @@ void Sequence <T> ::outputSequence(void) {
             }
             else{
             cout << current->value;
-            cout << "-";
+            cout << ", ";
             current = current->next;
             }// else
         }// while
